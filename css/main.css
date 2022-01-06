@@ -1,0 +1,92 @@
+a {
+    color: #848d96;
+    text-decoration: none;
+  }
+  
+body {
+    display: table;
+    height: 100%;
+    background-color: #0b1c2f;
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ddd;
+}
+
+.body-wrapper {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+}
+  
+.name {
+    margin-bottom: 20px;
+    color: #47bec7;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+  
+.role {
+    margin-bottom: 20px;
+}
+
+.text {
+    margin-top: 20px;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.image-frame {
+    margin-top: 40px;
+    text-align: center;
+}
+  
+.image {
+    width: 300px;
+    height: 300px;
+    background-image: url('../images/gm.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    object-fit: cover;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-list {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.list {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.list-el {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.button {    
+    color: #333;
+    background-color: #fff;  
+    display: inline-block;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.15),0 1px 1px rgba(0,0,0,.075);
+    background-repeat: repeat-x;
+
+    border-color: #ccc;
+    background-image: linear-gradient(to bottom,#fff 0,#e0e0e0 100%);
+    text-shadow: 0 1px 0 #fff;
+}
